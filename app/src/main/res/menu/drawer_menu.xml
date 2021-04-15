@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_one"
+                android:title="Home" />
+            <item
+                android:id="@+id/next"
+                android:icon="@drawable/ic_two"
+                android:title="Another " />
+        </menu>
+    </item>
+    <item android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/home1"
+                    android:icon="@drawable/ic_three"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/next1"
+                    android:icon="@drawable/ic_four"
+                    android:title="Information" />
+            </group>
+        </menu>
+    </item>
+</menu>
